@@ -17,8 +17,10 @@ for line in f:
     
     for pair in pairs:
         ID1,ID2 = pair.split("-")
+        
         for num in range(int(ID1),int(ID2)+1):
             num = str(num)
+            
             for chunkSize in range(1,len(num)):
                 chunk = num[0:chunkSize]
                 newNum = num.replace(chunk,"")

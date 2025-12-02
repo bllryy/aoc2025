@@ -14,8 +14,10 @@ totalSum = 0
 
 for line in f:
     pairs = line.split(",")
+    
     for pair in pairs:
         ID1,ID2 = pair.split("-")
+        
         for num in range(int(ID1),int(ID2)+1):
             num = str(num)
             lgth = len(num)

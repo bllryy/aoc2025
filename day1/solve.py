@@ -12,6 +12,7 @@ need - simulate the roatations in order and count how
 how many times after a rotation the dial ends up at 0
 """
 
+
 def main():
     pos = 50
     count = 0

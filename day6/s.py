@@ -1,6 +1,4 @@
-import numpy as np #uhuhuhuhuhuhuhsdkgjhsgkgkdsg
-
-#luke if ur reading this ur gey
+import numpy as np 
 
 f = open("in.txt").read()
 lines = f.split("\n")

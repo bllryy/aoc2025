@@ -1,7 +1,5 @@
 import numpy as np #uhuhuhuhuhuhuhsdkgjhsgkgkdsg
 
-#luke if ur reading this ur gey
-
 f = open("in.txt").read()
 lines = f.split("\n")
 lines = np.array([list(line) for line in lines]).T
